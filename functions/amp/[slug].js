@@ -85,7 +85,7 @@ ${related.map(p=>`
 </article>
 `;
 
-		return renderAmp({
+		return layoutAmp({
 			title:post.title,
 			description:desc,
 			canonical:canonical("/"+post.slug),
