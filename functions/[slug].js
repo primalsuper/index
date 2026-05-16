@@ -72,6 +72,7 @@ ${cardImage(ogImage(p.slug),p.title)}
 `).join("");
 
 				return layout({
+					page: "post",
 					title:post.title,
 					description:desc,
 					canonical:url,
