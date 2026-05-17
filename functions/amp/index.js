@@ -66,6 +66,7 @@ ${pagination(page,totalPage)}
 		return renderAmp({
 			title:SITE.name,
 			description:SITE.description,
+			type:'post',
 			canonical:canonical("/"),
 			amp:amphtml("/"),
 			content:html,
