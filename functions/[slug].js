@@ -76,6 +76,7 @@ ${cardImage(ogImage(p.slug),p.title)}
 					description:desc,
 					canonical:url,
 					image:og,
+					type:"post",
 					schema:seo({
 						title:post.title,
 						description:desc,
