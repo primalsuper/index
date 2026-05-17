@@ -6,7 +6,7 @@ canonical,
 amphtml,
 ogImage,
 sanitizeSlug,
-stripHTML,
+stripHTML,z
 readingTime,
 cleanDescription,
 escapeHTML
@@ -88,6 +88,7 @@ ${related.map(p=>`
 		return renderAmp({
 			title:post.title,
 			description:desc,
+			type:'post',
 			canonical:canonical("/"+post.slug),
 			amp:amphtml("/"+post.slug),
 			image:ogImage(post.slug),
