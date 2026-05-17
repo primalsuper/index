@@ -46,6 +46,7 @@ ${escapeHTML(p.title)}
 				const robots=page>1?'<meta name="robots" content="noindex,follow">':"";
 
 				return layout({
+					type:"home",
 					title:SITE.name,
 					description:SITE.description,
 					canonical:canonical(page>1?"/?page="+page:"/"),
