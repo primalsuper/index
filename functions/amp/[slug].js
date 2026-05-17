@@ -6,7 +6,7 @@ canonical,
 amphtml,
 ogImage,
 sanitizeSlug,
-stripHTML,z
+stripHTML,
 readingTime,
 cleanDescription,
 escapeHTML
