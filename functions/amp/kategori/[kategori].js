@@ -62,7 +62,6 @@ export async function onRequest(context){
 		return renderAmp({
 			title:`${kategori} AMP - ${SITE.name}`,
 			description:`Kumpulan artikel AMP kategori ${kategori}`,
-			type:'category',
 			canonical:canonical(`/kategori/${sanitizeSlug(kategori)}${page>1?`?page=${page}`:""}`),
 			schema:`
 <script type="application/ld+json">
